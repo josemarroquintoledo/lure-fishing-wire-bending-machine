@@ -35,6 +35,5 @@ G0 X-20 ; repeat bending up
 G0 X19
 G0 X1   ; end last bending up repetition
 G0 Z22  ; more wire forward 22mm
-GO Y62  ; cut wire with 2 rotations
-; TODO: move wire forward Ymm
+G0 Y62  ; cut wire with 2 rotations
 G90     ; end
